@@ -1,0 +1,207 @@
+* {
+    /*CSS RESET*/
+    /*zera as configurações de estilos anteriores para utilizar as novas*/
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-size: 4000px 4000px;
+   background-image: url(img/azul.jpg);
+}
+
+header {
+    width: 934px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-size: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+    background-image: url(img/escuro.jpg);
+    background-size: 150%;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000000;
+    background-size: 1000px;
+    margin: 20px 20px ;
+    display: inline-block;
+    background-image: url(img/tramontina.png);
+    background-size: 150px;
+}
+
+.escrita {
+    font-weight: bold;
+    float: right;
+    width: 550px;
+    height: 50px;
+    border: 2px solid #000000;
+    margin: 20px 20px ;
+    text-align: center;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    line-height: 50px;
+    background-color: #fff;
+    
+}
+
+nav {
+    width: 960px;
+    height: 100px;
+    border: none;
+    margin: 10px auto;
+  
+}
+
+nav section {
+    text-align: center;
+    width: 463px;
+    height: 90px;
+    float: right;
+    border: 2px #000000 solid;
+    margin-right: 6px;
+    margin-top: 5px;
+    margin-left: 6px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+main {
+    width: 950px;
+    height: 600px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+aside {
+    width: 210px;
+    height: 600px;
+    border: 2px #000000 solid;
+    float: left;
+    margin-left: 4px;
+    background-color: #fff;
+    background-image: url(img/escuro.jpg); 
+    background-size: 400%;
+}
+
+
+
+aside section {
+    width: 200px;
+    height: 290px;
+    border: 2px #000000 solid;
+    margin-top: 5px;
+    float: left;
+    margin-left: 4px;
+    background-image: url(img/cutelo.webp); 
+    background-size: 100px;
+    font-weight: bold;
+
+}
+
+.dois{
+    width: 200px;
+    height: 290px;
+    border: 2px #000000 solid;
+    margin-top: 5px;
+    float: left;
+    margin-left: 4px;
+    background-image: url(img/facachef.webp); 
+    background-size: 100px;
+}
+
+article {
+    width: 500px;
+    height: 565px;
+    border: 2px #000000 solid;
+    float: left;
+    padding-top: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.retangulo {
+    width: 500px;
+    height: 200px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    line-height: 50px;
+}
+.circulo{
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-image: url(img/santoku.webp);
+    background-size: 200px;
+}
+
+.bola{
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-image: url(img/filetar.png);
+    background-size: 200px;
+}
+
+.pato{
+    text-align: center;
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    line-height: 30px;
+}
+
+.container {
+    width: 460px;
+    height: 100px;
+    border: 2px #000000 solid;
+    margin: 12px auto;
+    background-image: url(img/todas.webp);
+    background-size: 50%;
+}
+
+footer{
+    width: 943px; /*largura*/
+    height: 100px; /*altura*/
+    border: 2px solid #000000;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    background-image: url(img/pedraa.png); 
+    background-size: 50px;
+}
